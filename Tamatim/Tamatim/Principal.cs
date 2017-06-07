@@ -14,12 +14,9 @@ namespace Tamatim
     public partial class Principal : Form
     {
         int quantPomodori = 0, qPomodori = 0, somaPomodoris = 0;
-        private SoundPlayer pausaSound;
-
         public Principal()
         {
             InitializeComponent();
-            pausaSound = new SoundPlayer("pausa.wav");
         }
 
         private void umPomodori_Tick(object sender, EventArgs e)
@@ -32,7 +29,6 @@ namespace Tamatim
                    somaPomodoris = somaPomodoris + 1;
                    totalPomodoris.Text = Convert.ToString(somaPomodoris);
                     MessageBox.Show("Intervalo 5 minutos.");
-                    pausaSound.Play();
                     umPomodori.Start();
             }
             else                
@@ -50,7 +46,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 tresPomodoris.Start();
             }
             else
@@ -68,7 +63,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 quatroPomodoris.Start();
             }
             else if (qPomodori == 4)
@@ -76,7 +70,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 20 minutos.");
-                pausaSound.Play();
                 quatroPomodoris.Start();
             }
             else
@@ -94,7 +87,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 doisPomodoris.Start();
             }
             else
@@ -112,7 +104,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 cincoPomodoris.Start();
             }
             else if (qPomodori == 4 || qPomodori == 5)
@@ -120,7 +111,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 20 minutos.");
-                pausaSound.Play();
                 cincoPomodoris.Start();
             }
             else
@@ -138,7 +128,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 seisPomodoris.Start();
             }
             else if (qPomodori == 4 || qPomodori < 7)
@@ -146,7 +135,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 20 minutos.");
-                pausaSound.Play();
                 seisPomodoris.Start();
             }
             else
@@ -164,7 +152,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 setePomodoris.Start();
             }
             else if (qPomodori == 4 || qPomodori < 8)
@@ -172,7 +159,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 20 minutos.");
-                pausaSound.Play();
                 setePomodoris.Start();
             }
             else
@@ -190,7 +176,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 oitoPomodoris.Start();
             }
             else if (qPomodori == 4 || qPomodori < 9)
@@ -198,7 +183,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 20 minutos.");
-                pausaSound.Play();
                 oitoPomodoris.Start();
             }
             else
@@ -216,7 +200,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 novePomodoris.Start();
             }
             else if (qPomodori == 4 || qPomodori < 10)
@@ -224,7 +207,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 20 minutos.");
-                pausaSound.Play();
                 novePomodoris.Start();
             }
             else
@@ -242,7 +224,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 5 minutos.");
-                pausaSound.Play();
                 dezPomodoris.Start();
             }
             else if (qPomodori == 4 || qPomodori <= 10)
@@ -250,7 +231,6 @@ namespace Tamatim
                 somaPomodoris = somaPomodoris + 1;
                 totalPomodoris.Text = Convert.ToString(somaPomodoris);
                 MessageBox.Show("Intervalo 20 minutos.");
-                pausaSound.Play();
                 dezPomodoris.Start();
             }
             else
