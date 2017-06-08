@@ -1,0 +1,6 @@
+1. Insira a quantidade de pomodoris do lado esquerdo; 
+2. Clique em "Iniciar" para começar a contagem. 
+
+Cada pomodori tem duração de 25 minutos, ao final de cada pomodori sobe um aviso informando a pausa de 5 minutos, a partir do 4º pomodori as pausas são aumentadas de 5 para 20 minutos. 
+
+Após realizar as tarefas, clique do lado direito para deixá-lo como "feito".
