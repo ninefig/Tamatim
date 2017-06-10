@@ -553,7 +553,7 @@
             // btnRefresh
             // 
             this.btnRefresh.Image = global::Tamatim.Properties.Resources.refresh1;
-            this.btnRefresh.Location = new System.Drawing.Point(207, 121);
+            this.btnRefresh.Location = new System.Drawing.Point(222, 121);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(56, 37);
             this.btnRefresh.TabIndex = 14;
